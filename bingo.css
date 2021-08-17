@@ -1,0 +1,7 @@
+
+        card {border-collapse: collapse;}
+        td { padding: 2em;
+        border: 2px gray solid;
+    }
+    #free, .highlight {background-color: yellow}
+    
