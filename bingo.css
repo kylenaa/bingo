@@ -1,7 +1,27 @@
 
-        card {border-collapse: collapse;}
-        td { padding: 2em;
-        border: 2px gray solid;
+#redTeam.toggled{background-color: red;}
+
+#blueTeam.toggled{background-color: blue;}
+
+#yellowTeam.toggled{background-color: yellow;}
+
+#greenTeam.toggled{background-color: green;}
+
+#orangeTeam.toggled{background-color: orange;}
+
+#bingoCard {border-collapse: collapse;}
+
+.teamButtons{
+padding: 4px;}
+
+td { 
+    padding: 2em;
+    border: 2px gray solid;
+    text-align: center;
     }
-    #free, .highlight {background-color: yellow}
-    
+
+td:hover{ background-color: rgb(142, 194, 196);}
+
+#free, .highlight {background-color: yellow}
+
+
