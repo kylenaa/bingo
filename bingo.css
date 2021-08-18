@@ -1,5 +1,5 @@
 
-#redTeam.toggled{background-color: red;}
+#redTeam.toggled{background-color:#ff0000;}
 
 #blueTeam.toggled{background-color: blue;}
 
@@ -11,17 +11,18 @@
 
 #bingoCard {border-collapse: collapse;}
 
-.teamButtons{
-padding: 4px;}
+.teamButtons{padding: 4px;}
 
 td { 
     padding: 2em;
     border: 2px gray solid;
     text-align: center;
+    background-color: default;
     }
+
+#free{ background-color: #ff0000;}
 
 td:hover{ background-color: rgb(142, 194, 196);}
 
-#free, .highlight {background-color: yellow}
 
 
