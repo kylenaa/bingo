@@ -15,14 +15,13 @@
     text-align: center;
     border-collapse: collapse;
     background-image: url(background.jpg);
-    
-    
-   
 }
-    
-div.teamButtons p {
+#buttonWrapper{
     text-align: center;
+}
+.teamButtons {
     padding: 20px;
+    display:inline-block;
 }
 .teamButtons{
     display: flex;
