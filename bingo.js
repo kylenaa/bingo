@@ -97,4 +97,3 @@
          td.style.backgroundColor = highlightColor; //otherwise, change background to global variable
      }
  }
- 

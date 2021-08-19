@@ -19,18 +19,14 @@
 #buttonWrapper{
     text-align: center;
 }
-.teamButtons {
-    padding: 20px;
-    display:inline-block;
-}
-.teamButtons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    margin-left: 5px;}
 
+.teamButtons{
+   
+    text-align: center;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+}
 td { 
     padding: 45px;
     border: 2px white solid;
@@ -45,6 +41,7 @@ td:hover{ background-color: rgb(142, 194, 196);}
 .bingo {
     pointer-events: none;
 }
+
 
 
 
