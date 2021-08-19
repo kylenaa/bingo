@@ -14,14 +14,10 @@
     align-items: center;
     text-align: center;
     border-collapse: collapse;
-    background-image: url(background.jpg);
-}
-#buttonWrapper{
-    text-align: center;
+    background-image: url("../images/background.jpg");
 }
 
 .teamButtons{
-   
     text-align: center;
     padding: 1em;
     margin-left:auto;
