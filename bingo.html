@@ -5,14 +5,14 @@
     <meta charset ="utf-8">
 </head>
     <body>
-      
-        <div class="teamButtons">
+        <button id="hello">click here</button>
+        <div>
             <p id="teamColour">Click a team colour </p> 
-            <br><button type="button"id="redTeam"onClick="toggleColor(this.id)">Red</button>
-            <button type="button"id="blueTeam"onClick="toggleColor(this.id)">Blue</button>
-            <button type="button"id="yellowTeam"onClick="toggleColor(this.id)">Yellow</button>
-            <button type="button"id="greenTeam"onClick="toggleColor(this.id)">Green</button>
-            <button type="button"id="orangeTeam"onClick="toggleColor(this.id)">Orange</button>
+            <button type="button"class="teamButtons"id="redTeam"onClick="toggleColor(this.id)">Red</button>
+            <button type="button"class="teamButtons"id="blueTeam"onClick="toggleColor(this.id)">Blue</button>
+            <button type="button"class="teamButtons"id="yellowTeam"onClick="toggleColor(this.id)">Yellow</button>
+            <button type="button"class="teamButtons"id="greenTeam"onClick="toggleColor(this.id)">Green</button>
+            <button type="button"class="teamButtons"id="orangeTeam"onClick="toggleColor(this.id)">Orange</button>
         </div>
         <table id="bingoCard">
             <tr class="bingo"> <!--Disable :hover on BINGO -->
@@ -62,9 +62,7 @@
                 <td>Eye of Ender</td>
                </tr>
         </table>
-        <script
-  src="https://code.jquery.com/jquery-3.6.0.js"
-  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-  crossorigin="anonymous"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="bingo.js"></script>
     </body>

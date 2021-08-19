@@ -17,18 +17,35 @@
  Still need to include team indicator.
  */
 
+ var $inputs = $('input[type=button]');
+ $inputs.click(function () {
+     $inputs.not(this).prop('disabled', true);
+ });
+
+//  $( "#hello" ).click(function () {
+//      hello();
+// });
+
+// function hello(){
+//     document.getElementById("hello").innerHTML = "changed";
+// }
 
 
  function toggleColor(elementID){
      try{
          const e = document.getElementById(elementID); // the element
          const style = getComputedStyle(e); // edits external CSS, as opposed to style.backgroundColor
-         var teamColour;
-     
+        //  var teamButtons = document.getElementsByClassName("test");
+        //  console.log(test.length);
+
          switch(elementID){
              case 'redTeam':
                  teamColour = "Red";
-                 bingoTaskDone(e, style, teamColour);
+                //  $("#redTeam").click(function(){
+                //     $("#blueTeam").not(this).prop('disabled', true);
+                //  });
+                 bingoTaskDone(e, style, teamColour);                 
+                 
                  break;
              
              case 'blueTeam':
