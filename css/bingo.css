@@ -18,19 +18,16 @@
 }
 
 .teamButtons{
-    text-align: center;
+    text-align:right;
     padding: 1em;
-    margin-left:auto;
-    margin-right:auto;
 }
+
 td { 
     padding: 45px;
     border: 2px white solid;
     text-align: center;
     background-color: lightgrey;
     }
-
-#free{ background-color: #ff0000;}
 
 td:hover{ background-color: rgb(142, 194, 196);}
 

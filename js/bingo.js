@@ -109,7 +109,7 @@
  }
  
  function highlight(td) {
-     if(td.style.backgroundColor == highlightColor){ //if td's background is the same as global variable
+     if(td.style.backgroundColor === highlightColor){ //if td's background is the same as global variable
          td.style.backgroundColor = "lightgrey"; // make it transparent it (reset it)
      } else{
          td.style.backgroundColor = highlightColor; //otherwise, change background to global variable
