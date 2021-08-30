@@ -1,12 +1,4 @@
-#redTeam.toggled{background-color:#ff0000;}
 
-#blueTeam.toggled{background-color: blue;}
-
-#yellowTeam.toggled{background-color: yellow;}
-
-#greenTeam.toggled{background-color: green;}
-
-#orangeTeam.toggled{background-color: orange;}
 
 #bingoCard {
     display: flex;
@@ -41,120 +33,109 @@ body {
 }
 
 #redTeam{
-display: flex;
-justify-content: center;
-align-items: center;
-width: 150px;
-height: 100px;
-border: 2px black solid;
-color: black;
-background-color: lightgray;
-border-radius: 4px;
-box-shadow: inset 0 0 0 0 red;
-transition: ease-out 0.3s;
-font-size: 2rem;
-outline: none;
-text-align: center;
-}
-
-#redTeam:hover {
-    box-shadow: inset 150px 0 0 0 red;
-    cursor: pointer;
    
-}
-
-#blueTeam{
-    display: flex;
-justify-content: center;
-align-items: center;
     width: 150px;
     height: 100px;
     border: 2px black solid;
-    color: black;
     background-color: lightgray;
     border-radius: 4px;
-    box-shadow: inset 0 0 0 0 blue;
-    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 0 red;
+    transition: ease-out;
     font-size: 2rem;
     outline: none;
     text-align: center;
     }
     
-    #blueTeam:hover {
-        box-shadow: inset 150px 0 0 0 blue;
-        cursor: pointer;
+    #redTeam:hover {
+        box-shadow: inset 150px 0 0 0 red;
+        
        
     }
-
-    #yellowTeam{
-        display: flex;
-justify-content: center;
-align-items: center;
+    
+    #blueTeam{
+        
         width: 150px;
         height: 100px;
         border: 2px black solid;
-        color: black;
         background-color: lightgray;
         border-radius: 4px;
-        box-shadow: inset 0 0 0 0 yellow;
-        transition: ease-out 0.3s;
+        box-shadow: inset 0 0 0 0 blue;
+        transition: ease-out;
         font-size: 2rem;
         outline: none;
         text-align: center;
         }
         
-        #yellowTeam:hover {
-            box-shadow: inset 150px 0 0 0 yellow;
-            cursor: pointer;
+        #blueTeam:hover {
+            box-shadow: inset 150px 0 0 0 blue;
+            
            
         }
-
-        
-        #greenTeam{
-            display: flex;
-justify-content: center;
-align-items: center;
+    
+        #yellowTeam{
             width: 150px;
             height: 100px;
             border: 2px black solid;
-            color: black;
             background-color: lightgray;
             border-radius: 4px;
-            box-shadow: inset 0 0 0 0 green;
-            transition: ease-out 0.3s;
+            box-shadow: inset 0 0 0 0 yellow;
+            transition: ease-out;
             font-size: 2rem;
             outline: none;
             text-align: center;
             }
             
-            #greenTeam:hover {
-                box-shadow: inset 150px 0 0 0 green;
-                cursor: pointer;
+            #yellowTeam:hover {
+                box-shadow: inset 150px 0 0 0 yellow;
+                
                
             }
-
+    
             
-            #orangeTeam{
-                display: flex;
-justify-content: center;
-align-items: center;
+            #greenTeam{
                 width: 150px;
                 height: 100px;
                 border: 2px black solid;
-                color: black;
                 background-color: lightgray;
                 border-radius: 4px;
-                box-shadow: inset 0 0 0 0 orange;
-                transition: ease-out 0.3s;
+                box-shadow: inset 0 0 0 0 green;
+                transition: ease-out;
                 font-size: 2rem;
                 outline: none;
                 text-align: center;
                 }
                 
-                #orangeTeam:hover {
-                    box-shadow: inset 150px 0 0 0 orange;
-                    cursor: pointer;
+                #greenTeam:hover {
+                    box-shadow: inset 150px 0 0 0 green;
+                    
                    
                 }
+    
                 
+                #orangeTeam{
+                    width: 150px;
+                    height: 100px;
+                    border: 2px black solid;
+                    background-color: lightgray;
+                    border-radius: 4px;
+                    box-shadow: inset 0 0 0 0 orange;
+                    transition: ease-out;
+                    font-size: 2rem;
+                    outline: none;
+                    text-align: center;
+                    }
+                    
+                    #orangeTeam:hover {
+                        box-shadow: inset 150px 0 0 0 orange;
+                        
+                       
+                    }
+                    #redTeam.toggled{background-color:#ff0000; }
 
+                    #blueTeam.toggled{background-color: blue;}
+                    
+                    #yellowTeam.toggled{background-color: yellow;}
+                    
+                    #greenTeam.toggled{background-color: green;}
+                    
+                    #orangeTeam.toggled{background-color: orange;}
